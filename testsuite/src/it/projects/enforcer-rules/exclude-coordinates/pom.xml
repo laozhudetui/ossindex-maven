@@ -13,7 +13,7 @@
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
-      <version>1.3</version>
+      <version>1.4</version>
     </dependency>
   </dependencies>
 
@@ -39,8 +39,7 @@
             </goals>
             <configuration>
               <rules>
-                <banVunerableDependencies
-                    implementation="org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies">
+                <banVunerableDependencies implementation="org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies">
                   <clientConfiguration>
                     <baseUrl>@ossindex.baseUrl@</baseUrl>
                   </clientConfiguration>
