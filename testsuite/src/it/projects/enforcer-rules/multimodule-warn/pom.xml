@@ -14,7 +14,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>21.0</version>
+        <version>32.0.0-android</version>
       </dependency>
 
       <dependency>
@@ -53,8 +53,7 @@
             </goals>
             <configuration>
               <rules>
-                <banVunerableDependencies
-                    implementation="org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies">
+                <banVunerableDependencies implementation="org.sonatype.ossindex.maven.enforcer.BanVulnerableDependencies">
                   <clientConfiguration>
                     <baseUrl>@ossindex.baseUrl@</baseUrl>
                   </clientConfiguration>
