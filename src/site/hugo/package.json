@@ -14,9 +14,9 @@
     "build": "brunch build --production themes/dionysus && hugo"
   },
   "dependencies": {
-    "brunch": "2.10.17",
-    "concurrently": "4.1.2",
-    "wait-on": "3.3.0",
+    "brunch": "4.0.0",
+    "concurrently": "6.2.2",
+    "wait-on": "7.0.0",
     "debug": "2.6.9"
   },
   "devDependencies": {}
